@@ -64,5 +64,21 @@ justify-content: center;
     width: 85%;
     object-position: center;
     height: 34rem;
-
+}
+.collection{
+    display: flex;
+    justify-content: center;
+}
+.collection h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 0.5rem 0rem 0 0;
+}
+.collectionimages{
+    display: flex;
+    padding: 1rem 0 0 0;
+}
+.collectionimages img{
+    width: 20%;
+    object-fit: cover;
 }
