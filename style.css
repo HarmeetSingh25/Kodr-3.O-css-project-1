@@ -54,31 +54,82 @@ nav {
     font-size: 1rem;
     color: black;
 }
-.image-1{
+
+.image-1 {
     width: 100%;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
-.image-1 img{
+
+.image-1 img {
     object-fit: cover;
     width: 85%;
     object-position: center;
     height: 34rem;
 }
-.collection{
+
+.collection {
     display: flex;
     justify-content: center;
 }
-.collection h1{
+
+.collection h1 {
     font-size: 2.5rem;
     font-weight: bolder;
     padding: 0.5rem 0rem 0 0;
+    text-transform: uppercase;
 }
-.collectionimages{
+
+.collectionimages {
     display: flex;
     padding: 1rem 0 0 0;
 }
-.collectionimages img{
+
+.collectionimages img {
     width: 20%;
     object-fit: cover;
+}
+
+.latestnews {
+    padding: 0rem 5rem;
+}
+
+.latestnewheading {
+    display: flex;
+    justify-content: center;
+}
+
+.latestnewheading h3 {
+    text-transform: uppercase;
+    padding: 1rem 0;
+
+    font-size: 2rem;
+
+}
+
+.latesnews-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* padding: 2rem 0; */
+}
+
+.latestcard-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.latestcard-1 img {
+    width: 98%;
+}
+
+.latestcard-1 h3 {
+    font-size: 2rem;
+    width: 38%;
+    /* background-color: red; */
+}
+
+.latestcard-1 p {
+    font-size: 0.8em;
 }
